@@ -1,24 +1,14 @@
-# README
+# Bonjour à toi, le groupe THP de Nantes te propose un rendu de son exercice sur le CSS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Si tu veux essayer en local, toujours la même chose :
 
-Things you may want to cover:
+```git clone https://github.com/FloLeh/Francis-Lalanne```
 
-* Ruby version
 
-* System dependencies
+```rails db:create```
 
-* Configuration
+```rails s```
 
-* Database creation
+## Pour la version en production sur heroku :
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[C'est par ici](https://thp-nantes-css.herokuapp.com/)
