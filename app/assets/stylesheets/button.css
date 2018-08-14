@@ -1,0 +1,18 @@
+.bout {
+  font-family: robot bold, sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding: 15px 10px 15px 10px;
+  color: white;
+  background-color: rgb(214, 94, 26);
+  transition: all ease-in 0.2s;
+  transition: transform cubic-bezier(0.15, 1.29, 0.96, 1.73) 0.4s;
+  box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+.bout:hover {
+  color: rgba(255,255,255,1);
+  box-shadow: 0px 1px 5px 3px rgba(200, 0, 0, 0.3);
+  transform: translateY(2px);
+}

@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-between;
+  background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 50%), url('../../assets/Wiki-background.jpg');
+  background-size: cover;
+  box-shadow: 0px 1px 20px 8px rgba(0,0,0,0.7);
+}
+
+.card {
+  background-image: url('../../assets/element.jpg');
+  height: 280px;
+  width: 200px;
+  background-size: cover;
+  margin: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px 5px rgba(0,0,0,0.4);
+  transition: box-shadow ease-in 0.2s;
+  transition: padding ease-in 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px 10px rgba(0,0,0,0.8);
+  padding: 0 100px;
+}
+
+.card h2 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
